@@ -1,0 +1,74 @@
+
+
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/thewitcherbackground.jpg);
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+  font-family: 'Poiret One', cursive;
+}
+.col-40 {
+  background: #FFF;
+  padding: 13px;
+  color: #000;
+  border:3px solid #051338;
+  border-bottom-left-radius:10px;
+  border-top-left-radius: 10px;
+  list-style: none;
+}
+.col-60 {
+  border:3px solid #051338;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius:10px;
+  background-color: black;
+}
+
+#juego div {
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+img{
+  width: 232px;
+  height: 232px;
+  border-radius: 3px;
+  margin: 1px 1px;
+}
+
+.estilo{
+  float: left;
+  width: 232px;
+  height: 232px;
+  border-radius: 3px;
+  margin: 1px 1px;
+}
+
+#imgcorrecta{
+  width: 170px;
+  height: 200px;
+  margin-left: 15px;
+}
